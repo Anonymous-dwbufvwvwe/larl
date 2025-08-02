@@ -512,7 +512,6 @@ class Vehicle(RoadObject):
         return onlane
     
     def get_constraint_feature(self,dt,x):
-        # 如果 action 是 lane change，那纵向约束应该让它失效
         sigma = 0.3
         vehicles = self.road.vehicles
         ego_vehicle = self.road.vehicles[0]
