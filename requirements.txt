@@ -7,4 +7,4 @@ openai==1.93.0
 moviepy==2.2.1
 ipython==7.23.1
 nest-asyncio==1.6.0
-cvxy==1.6.5
+cvxpy==1.6.5
